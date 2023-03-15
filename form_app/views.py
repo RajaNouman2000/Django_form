@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.views import View
-from .forms import ApplicationForm
+from .models import Registeration_form
+from .form import ApplicationForm
 
 # Create your views here.
 
